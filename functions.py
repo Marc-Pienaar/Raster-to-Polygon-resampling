@@ -101,7 +101,7 @@ def polygon_resample(driverName,input_features,outputShapefile,inputraster,temp_
 			except:
 				outFeature.SetField(new_attributes[2], 0.0)
 			outLayer.CreateFeature(outFeature)
-			outFeature = None
+			outFeature = None	
 		except:
 			accum=accum+1
 			print(accum,attrs,"Error")
