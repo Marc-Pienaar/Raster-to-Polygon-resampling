@@ -6,7 +6,7 @@ import time
 import functions as func
 
 #set the working directory
-workingDir=os.path.sep.join(['','Users', 'privateprivate','SAEON','Python_code','Resampling'])
+workingDir=os.path.sep.join(['','Users', 'privateprivate','SAEON','Python_code','Resampling','Raster-to-Polygon-resampling'])
 os.chdir(workingDir)
 #Make an outputs folder for temporary files in the working directory
 func.mkdir_recursive(os.path.sep.join(['outputs', 'temp']))
